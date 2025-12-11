@@ -5,7 +5,7 @@ sender_email = ""
 app_password = "" 
 receiver_email = "ddimitrov@elsys-bg.org"
 
-body = f"Здравей Борис, това е тестово писмо от Python, поздрави!"
+body = f"Само сега - вземи 2 на цената на 1! Не изпускай промоцията!!"
 
 message = MIMEText(body)
 message["From"] = sender_email
